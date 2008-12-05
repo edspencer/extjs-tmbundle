@@ -1,0 +1,11 @@
+JavaScript Tools TextMate Bundle
+--------------------------------
+
+v0.1.1 (10/3/2006)
++ Added a PPC binary of jsl.
++ Added more precision to the line-number hyperlinks.  They now take you to
+  the proper line *and* column, and will focus the proper file even if it is
+  not the frontmost document.
+
+v0.1.0
++ Initial version.
