@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Ext.applyIf(${1:config}, {
+  $0
+});</string>
+	<key>name</key>
+	<string>Ext.applyIf</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>aif</string>
+	<key>uuid</key>
+	<string>F4C8A26B-F764-483C-8769-A3A80B26F107</string>
+</dict>
+</plist>

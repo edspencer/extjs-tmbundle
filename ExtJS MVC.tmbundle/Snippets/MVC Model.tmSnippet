@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @class ${1:MyNamespace.MyModel}
+ * @extends ${2:Ext.ux.MVC.Model}
+ */
+${1:MyNamespace.MyModel} = Ext.extend(${2:Ext.ux.MVC.Model}, {${3:
+  adapter:   '${4:activeResource}',}
+  modelName: '${5:${1/(.+)\.([A-Za-z]*)$/\l$2/}}',
+  fields:    [
+    $0
+  ]
+});
+
+/**
+ * Adds class methods such as ${1:MyNamespace.MyModel}.find(id)
+ */
+Ext.ux.MVC.Model.addClassMethodsToModel(${1:MyNamespace.MyModel});</string>
+	<key>name</key>
+	<string>MVC Model</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>mod</string>
+	<key>uuid</key>
+	<string>F1489D7A-FFE9-4359-A80D-D400B2AE9681</string>
+</dict>
+</plist>

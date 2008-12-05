@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * ${1:ClassName}
+ * @extends ${2:extends}
+ * ${5:Description}
+ */
+${1:ClassName} = function(config) {
+  var config = config || {};
+ 
+  Ext.applyIf(config, {
+    $0
+  });
+ 
+  ${1:ClassName}.superclass.constructor.call(this, config);
+};
+Ext.extend(${1:ClassName}, ${2:extends});
+
+${3:Ext.reg('${4:xtype}', ${1:ClassName});}</string>
+	<key>name</key>
+	<string>extend</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>extend</string>
+	<key>uuid</key>
+	<string>DBCF1424-6FC9-4FF4-BE6B-E1046A4D0C48</string>
+</dict>
+</plist>

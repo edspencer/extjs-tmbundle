@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * ${1:MyNamespace.MyControllerName}
+ * @extends ${2:Ext.ux.MVC.Controller}
+ * ${3:Description of this controller}
+*/
+${1:MyNamespace.MyControllerName} = function() {
+  ${1:MyNamespace.MyControllerName}.superclass.constructor.call(this, {
+    viewsPackage: ${4:$1.views}
+  }
+};
+Ext.extend(${1:MyNamespace.MyControllerName}, ${2:Ext.ux.MVC.Controller});
+
+${5:Ext.ux.MVC.OS}.registerController('${6:controllerName}', ${1:MyNamespace.MyControllerName});</string>
+	<key>name</key>
+	<string>MVC Controller</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>con</string>
+	<key>uuid</key>
+	<string>52A1CB23-FB62-4DA2-A860-9BCB5CDDC97A</string>
+</dict>
+</plist>
