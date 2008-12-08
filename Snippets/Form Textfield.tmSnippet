@@ -3,21 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:ModelName}.findById(${2:id}, {${3:
-  loadFailure: function(response) {
-    
-  \},}
-  loadSuccess: function(${4:${1/(.+)\.([A-Za-z]*)$/\l$2/}}) {
-    $0
-  }
-});</string>
+	<string>{
+  xtype:      'textfield',
+  fieldLabel: '${1:Label}',
+  name:       '${2:name}'
+}$0</string>
 	<key>name</key>
-	<string>MVC Find by ID</string>
+	<string>Form Textfield</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>find</string>
+	<string>textfield</string>
 	<key>uuid</key>
-	<string>00B28F04-3E56-4ED6-992E-853F989BFD14</string>
+	<string>39B6F4E7-4F29-4543-A66B-92864FD25F4F</string>
 </dict>
 </plist>

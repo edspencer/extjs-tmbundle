@@ -3,21 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:ModelName}.findById(${2:id}, {${3:
-  loadFailure: function(response) {
-    
-  \},}
-  loadSuccess: function(${4:${1/(.+)\.([A-Za-z]*)$/\l$2/}}) {
+	<string>{
+  xtype: 'fieldset',${1:
+  title: '${2:Title}',}
+  items: [
     $0
-  }
-});</string>
+  ]
+}</string>
 	<key>name</key>
-	<string>MVC Find by ID</string>
+	<string>Form Fieldset</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>find</string>
+	<string>fieldset</string>
 	<key>uuid</key>
-	<string>00B28F04-3E56-4ED6-992E-853F989BFD14</string>
+	<string>D0CBCBF7-4DA5-40EB-A1A8-5237B2E12779</string>
 </dict>
 </plist>
