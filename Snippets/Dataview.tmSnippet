@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{
+  xtype:        'dataview',
+  emptyText:    '${1:No items to display}',${2:
+  singleSelect: ${3:true},}${4:
+  autoHeight:   true,}${5:
+  overClass:    '${6:x-view-over}',}${7:
+  itemSelector: '${8:div.thumb-wrap}',}
+  store:        ${9:store}${10:,
+  tpl:          ${11:new ${12:Ext.XTemplate}(
+    '&lt;tpl for="."&gt;',
+      $0
+    '&lt;/tpl&gt;'
+  )}}
+}</string>
+	<key>name</key>
+	<string>Dataview (from xtype)</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>dataview</string>
+	<key>uuid</key>
+	<string>74FD6AA1-F619-41E0-82A2-8DF7E1DDBDE1</string>
+</dict>
+</plist>

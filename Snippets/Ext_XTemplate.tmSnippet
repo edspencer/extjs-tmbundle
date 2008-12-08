@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:var ${2:tpl} = }new Ext.XTemplate(${3:
+  '&lt;tpl for="."&gt;',
+    $0
+  '&lt;/tpl&gt;'}
+);</string>
+	<key>name</key>
+	<string>Ext.XTemplate</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>xt</string>
+	<key>uuid</key>
+	<string>6A5CA324-CF29-46A7-8693-51C3492E559D</string>
+</dict>
+</plist>
