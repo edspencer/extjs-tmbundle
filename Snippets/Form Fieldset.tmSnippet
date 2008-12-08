@@ -4,8 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>{
-  xtype: 'fieldset',${1:
-  title: '${2:Title}',}
+  xtype:      'fieldset',${1:
+  title:      '${2:Title}',}
+  autoHeight: true,
   items: [
     $0
   ]
