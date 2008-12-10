@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>* @see #${1:method}</string>
+	<string>* @see ${1:className}#${2:methodName}</string>
 	<key>name</key>
 	<string>JSDOC see</string>
 	<key>scope</key>
