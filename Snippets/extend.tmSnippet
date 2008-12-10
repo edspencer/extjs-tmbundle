@@ -21,7 +21,7 @@ Ext.extend(${1:ClassName}, ${2:extends});
 
 ${3:Ext.reg('${4:xtype}', ${1:ClassName});}</string>
 	<key>name</key>
-	<string>extend</string>
+	<string>Ext.extend</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>

@@ -10,7 +10,7 @@
  */
 '${1:eventName}'$0</string>
 	<key>name</key>
-	<string>Event definition</string>
+	<string>Event Definition</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>

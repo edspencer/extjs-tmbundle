@@ -7,7 +7,7 @@
   $0
 }</string>
 	<key>name</key>
-	<string>handler anonymous function</string>
+	<string>Handler anonymous function</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
