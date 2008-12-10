@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>* @return {${1:String}} ${2:Returned parameter description}</string>
 	<key>name</key>
-	<string>JSDOC return</string>
+	<string>JSDoc return</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>

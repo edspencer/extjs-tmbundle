@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>* @param {${1:String}} ${2:paramName} ${3:Parameter description}</string>
 	<key>name</key>
-	<string>JSDOC param</string>
+	<string>JSDoc param</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>* @see ${1:className}#${2:methodName}</string>
 	<key>name</key>
-	<string>JSDOC see</string>
+	<string>JSDoc see</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
