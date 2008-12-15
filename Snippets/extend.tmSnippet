@@ -4,8 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * ${1:ClassName}
- * @extends ${2:extends}
+ * @class ${1:ClassName}
+ * @extends ${2:extendsClass}
  * ${5:Description}
  */
 ${1:ClassName} = function(config) {
@@ -17,7 +17,7 @@ ${1:ClassName} = function(config) {
  
   ${1:ClassName}.superclass.constructor.call(this, config);
 };
-Ext.extend(${1:ClassName}, ${2:extends});
+Ext.extend(${1:ClassName}, ${2:extendsClass});
 
 ${3:Ext.reg('${4:xtype}', ${1:ClassName});}</string>
 	<key>name</key>

@@ -5,20 +5,15 @@
 	<key>content</key>
 	<string>/**
  * @class ${1:MyNamespace.MyModel}
- * @extends ${2:Ext.ux.MVC.Model}
+ * @extends Ext.ux.MVC.Model
  */
-${1:MyNamespace.MyModel} = Ext.extend(${2:Ext.ux.MVC.Model}, {${3:
-  adapter:   '${4:activeResource}',}
-  modelName: '${5:${1/(.+)\.([A-Za-z]*)$/\l$2/}}',
+Ext.ux.MVC.Model.define("${1:MyNamespace.MyModel}", {${2:
+  adapter:   '${3:activeResource}',}${4:
+  modelName: '${5:${1/(.+)\.([A-Za-z]*)$/\l$2/}}',}
   fields:    [
     $0
   ]
-});
-
-/**
- * Adds class methods such as ${1:MyNamespace.MyModel}.find(id)
- */
-Ext.ux.MVC.Model.addClassMethodsToModel(${1:MyNamespace.MyModel});</string>
+});</string>
 	<key>name</key>
 	<string>MVC Model</string>
 	<key>scope</key>
