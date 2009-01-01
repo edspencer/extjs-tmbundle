@@ -12,6 +12,7 @@
 			<string>CC38A1D0-18E8-4C12-8D88-6776A4DF9101</string>
 			<string>4346685E-E3D7-4A54-BBBC-B25816FDF3DF</string>
 			<string>7E8207BC-F227-476F-BD39-72DFA055BE4A</string>
+			<string>0662288F-3E73-46FF-A2EC-A9FEB1C0A810</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -53,6 +54,9 @@
 					<string>F65A8BA4-6C8E-4FD4-8A6B-5B3A13F6EAEA</string>
 					<string>629107CE-47E3-4C7A-A2CC-E0FDF595B695</string>
 					<string>1911C7F2-35BB-49F1-AB69-244669B97884</string>
+					<string>8A87A9A2-BACD-49D0-9204-2883A56AFE2D</string>
+					<string>298E8971-B2C6-4C27-9CB1-F534ED5A3702</string>
+					<string>B5BC8600-5DB3-4DA0-9D92-EF9CD8386BD4</string>
 				</array>
 				<key>name</key>
 				<string>JSDoc</string>
