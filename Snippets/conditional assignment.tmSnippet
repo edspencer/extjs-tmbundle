@@ -5,12 +5,12 @@
 	<key>content</key>
 	<string>var ${1:config} = ${1:config} || {$2};$0</string>
 	<key>name</key>
-	<string>v = v || {};</string>
+	<string>conditional assignment</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>||=</string>
 	<key>uuid</key>
-	<string>B5763BA3-FC3D-4BE2-A9F2-F3F9DC087968</string>
+	<string>441889CF-C9C1-491A-865D-13268DDD5333</string>
 </dict>
 </plist>
