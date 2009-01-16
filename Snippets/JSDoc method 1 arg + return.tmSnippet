@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * ${1:Method Description}
+ * @param {${2:String}} ${3:paramName} ${4:Parameter Description}
+ * @return {${5:String}} ${6:Return value Description}
+ */$0</string>
+	<key>name</key>
+	<string>JSDoc method 1 arg + return</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>doc1ar</string>
+	<key>uuid</key>
+	<string>09241433-43B7-4334-A216-59B3778013E8</string>
+</dict>
+</plist>
