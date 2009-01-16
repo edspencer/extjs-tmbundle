@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * ${2:Renders the HTML for this component}
+ * @param {Ext.Container} ct The container to render this component to
+ * @param {Number} position The position within the parent container to render this component to
+ */
+onRender: function(ct, position) {
+  this.el = ct.createChild({
+    $0
+  });
+
+  ${1:MyClassName}.superclass.onRender.apply(this, arguments);
+}</string>
+	<key>name</key>
+	<string>onRender</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>onRender</string>
+	<key>uuid</key>
+	<string>77649C2E-77EA-4B05-B4D9-C02D9911E2CB</string>
+</dict>
+</plist>

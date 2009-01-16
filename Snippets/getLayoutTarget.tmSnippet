@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * Returns the HTML element to render child components to
+ * @return {Ext.Element} The element child components will be rendered to
+ */
+getLayoutTarget: function() {
+  return ${1:this.layoutTarget};
+}</string>
+	<key>name</key>
+	<string>getLayoutTarget</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>glt</string>
+	<key>uuid</key>
+	<string>141B157A-EB6D-4711-BE03-1FF164D34CAA</string>
+</dict>
+</plist>

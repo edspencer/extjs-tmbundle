@@ -7,11 +7,11 @@
  * ${1:MyNamespace.MyControllerName}
  * @extends ${2:Ext.ux.MVC.Controller}
  * ${3:Description of this controller}
-*/
+ */
 ${1:MyNamespace.MyControllerName} = function() {
   ${1:MyNamespace.MyControllerName}.superclass.constructor.call(this, {
     viewsPackage: ${4:$1.views}
-  }
+  });
 };
 Ext.extend(${1:MyNamespace.MyControllerName}, ${2:Ext.ux.MVC.Controller});
 

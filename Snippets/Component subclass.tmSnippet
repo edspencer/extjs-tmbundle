@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @class ${1:ClassName}
+ * @extends ${2:Ext.Component}
+ * ${5:Description}
+ */
+${1:ClassName} = function(config) {
+  var config = config || {};
+ 
+  Ext.applyIf(config, {
+    $0
+  });
+ 
+  ${1:ClassName}.superclass.constructor.call(this, config);
+};
+Ext.extend(${1:ClassName}, ${2:Ext.Component}, {
+  /**
+   * ${6:Renders the HTML for this component}
+   * @param {Ext.Container} ct The container to render this component to
+   * @param {Number} position The position within the parent container to render this component to
+   */
+  onRender: function(ct, position) {
+    this.el = ct.createChild({
+      $7
+    });
+  
+    ${1:ClassName}.superclass.onRender.apply(this, arguments);
+  }
+});
+
+${3:Ext.reg('${4:xtype}', ${1:ClassName});}</string>
+	<key>name</key>
+	<string>Component subclass</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>component</string>
+	<key>uuid</key>
+	<string>CA53EE2F-69C7-4DB9-B870-D006E3EC2AE4</string>
+</dict>
+</plist>
