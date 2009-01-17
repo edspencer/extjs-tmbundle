@@ -4,12 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * @class ${1:MyNamespace.MyModel}
+ * @class ${1:MyNamespace}.models.${2:${TM_FILENAME/(.+)\.js$/$1/}}
  * @extends Ext.ux.MVC.Model
  */
-Ext.ux.MVC.Model.define("${1:MyNamespace.MyModel}", {${2:
-  adapter:   '${3:activeResource}',}${4:
-  modelName: '${5:${1/(.+)\.([A-Za-z]*)$/\l$2/}}',}
+Ext.ux.MVC.Model.define("${1:MyNamespace}.models.${2:${TM_FILENAME/(.+)\.js$/$1/}}", {${3:
+  adapter:   '${4:activeResource}',}${5:
+  modelName: '${6:${2/(.*)/\l$1/}}',}
   fields:    [
     $0
   ]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if (${1:this}.fireEvent('${3:before${2:eventName}}'${4:, ${5:params}})) {
+  $0
+  
+  ${1:this}.fireEvent('${2:eventName}'${6:${4:, ${5:params}}});
+}</string>
+	<key>name</key>
+	<string>fireEvent (before and after)</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>bfefe</string>
+	<key>uuid</key>
+	<string>0036354E-BC7D-4643-A319-E793EE7A336B</string>
+</dict>
+</plist>

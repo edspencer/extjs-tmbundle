@@ -4,22 +4,22 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * @class ${1:ClassName}
- * @extends ${2:extendsClass}
- * ${5:Description}
+ * @class ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @extends ${3:extendsClass}
+ * ${6:Description}
  */
-${1:ClassName} = function(config) {
+${1:MyNamespace.}${2:ClassName} = function(config) {
   var config = config || {};
  
   Ext.applyIf(config, {
     $0
   });
  
-  ${1:ClassName}.superclass.constructor.call(this, config);
+  ${1:MyNamespace.}${2:ClassName}.superclass.constructor.call(this, config);
 };
-Ext.extend(${1:ClassName}, ${2:extendsClass});
+Ext.extend(${2:ClassName}, ${3:extendsClass});${4:
 
-${3:Ext.reg('${4:xtype}', ${1:ClassName});}</string>
+Ext.reg('${5:xtype}', ${1:MyNamespace.}${2:ClassName});}</string>
 	<key>name</key>
 	<string>Ext.extend</string>
 	<key>scope</key>
