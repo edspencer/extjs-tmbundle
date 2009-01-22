@@ -1,23 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>content</key>
-	<string>{
+    <dict>
+        <key>content</key>
+        <string>{
   xtype:      'fieldset',${1:
   title:      '${2:Title}',}
-  autoHeight: true,
+  autoHeight: true,${3:
+  defaults:   {
+    xtype:  'textfield',
+    anchor: "-20"
+  \},}
   items: [
     $0
   ]
 }</string>
-	<key>name</key>
-	<string>Form Fieldset</string>
-	<key>scope</key>
-	<string>source.js</string>
-	<key>tabTrigger</key>
-	<string>fieldset</string>
-	<key>uuid</key>
-	<string>D0CBCBF7-4DA5-40EB-A1A8-5237B2E12779</string>
-</dict>
+        <key>name</key>
+        <string>Form Fieldset</string>
+        <key>scope</key>
+        <string>source.js</string>
+        <key>tabTrigger</key>
+        <string>fieldset</string>
+        <key>uuid</key>
+        <string>D0CBCBF7-4DA5-40EB-A1A8-5237B2E12779</string>
+    </dict>
 </plist>

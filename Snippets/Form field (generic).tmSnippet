@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Form field (generic)</string>
+        <key>uuid</key>
+        <string>572F030A-AFC5-4AF9-9791-B7507BA15A79</string>
+        <key>tabTrigger</key>
+        <string>ffield</string>
+        <key>content</key>
+        <string>{
+  fieldLabel: '${1:Label}',
+  name:       '${2:$1}'
+}$0</string>
+        <key>scope</key>
+        <string>source.js</string>
+    </dict>
+</plist>
