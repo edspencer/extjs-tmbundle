@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>MVC ViewportBuilder</string>
+        <key>uuid</key>
+        <string>7F120FDD-DEF1-479B-8EFB-D27B0C8047A3</string>
+        <key>tabTrigger</key>
+        <string>vbuilder</string>
+        <key>content</key>
+        <string>/**
+ * @class Ext.ux.MVC.plugin.${1:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @extends Ext.ux.MVC.ViewportBuilder
+ * ${2:Describe what this viewport builder does}
+ */
+Ext.ux.MVC.plugin.${1:${TM_FILENAME/(.+)\.js$/$1/}} = Ext.extend(Ext.ux.MVC.ViewportBuilder, {
+  /**
+   * Creates the viewport elements, taking config options from OS.viewportBuilderConfig
+   * @param {Ext.ux.MVC.OS} os The OS instance to link built viewport components to
+   * Assigns this.topBar, this.sideMenu, this.mainPanel, this.contentPanel and this.viewport
+   * to the passed os when calling build(os)
+   * @return {Ext.ux.MVC.OS} The same OS instance, now decorated with viewport components
+   */
+  build: function(os) {
+    var config = os.getViewportBuilderConfig() || {};
+    
+    $0
+    
+    return os;
+  }
+});
+
+Ext.ux.MVC.ViewportBuilderManager.register('${3:viewportType}', Ext.ux.MVC.plugin.${1:${TM_FILENAME/(.+)\.js$/$1/}});</string>
+        <key>scope</key>
+        <string>source.js</string>
+    </dict>
+</plist>

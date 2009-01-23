@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Ext.Viewport</string>
+        <key>uuid</key>
+        <string>F36A3B36-9D72-4E67-821A-E898195320CB</string>
+        <key>tabTrigger</key>
+        <string>viewport</string>
+        <key>content</key>
+        <string>${1:var ${2:viewport}} = new Ext.Viewport({
+  layout: '${3:border}',
+  items: [
+    $0
+  ]
+});</string>
+        <key>scope</key>
+        <string>source.js</string>
+    </dict>
+</plist>

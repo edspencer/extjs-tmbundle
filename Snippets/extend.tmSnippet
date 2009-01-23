@@ -19,9 +19,7 @@ ${1:MyNamespace.}${2:ClassName} = function(config) {
 };
 Ext.extend(${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}, ${3:extendsClass});${4:
 
-Ext.reg('${5:xtype}', ${1:MyNamespace.}${2:ClassName});}
-
-</string>
+Ext.reg('${5:xtype}', ${1:MyNamespace.}${2:ClassName});}</string>
         <key>name</key>
         <string>Ext.extend</string>
         <key>scope</key>

@@ -15,7 +15,9 @@ ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}} = function() {
 };
 Ext.extend(${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}}, ${3:Ext.ux.MVC.Controller});
 
-Ext.ux.MVC.OS.getOS().registerController('${6:${2/(.*)Controller$/\l$1/}}', ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}});</string>
+Ext.ux.MVC.OS.getOS().registerController('${6:${2/(.*)Controller$/\l$1/}}', ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}});
+
+Ext.ns("${5:$1.views.${2/(.*)Controller$/\l$1/}}");</string>
         <key>name</key>
         <string>MVC Controller</string>
         <key>scope</key>
