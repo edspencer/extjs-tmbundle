@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var ${1:tempTask} = new Ext.util.DelayedTask(${2:function() {
+  ${5}
+\}}, ${3:this});
+${1}.delay(${4:1000});${0}</string>
+	<key>name</key>
+	<string>Ext.util.DelayedTask</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>temptask</string>
+	<key>uuid</key>
+	<string>F4213DF7-ACF0-4EB0-AF4C-44D31F736E8B</string>
+</dict>
+</plist>
