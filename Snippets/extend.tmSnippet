@@ -8,16 +8,16 @@
  * @extends ${3:extendsClass}
  * ${6:Description}
  */
-${1:MyNamespace.}${2:ClassName} = function(config) {
-  var config = config || {};
- 
-  Ext.applyIf(config, {
-    $0
-  });
- 
-  ${1:MyNamespace.}${2:ClassName}.superclass.constructor.call(this, config);
-};
-Ext.extend(${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}, ${3:extendsClass});${4:
+${1:MyNamespace.}${2:ClassName} = Ext.extend(${3:extendsClass}, {
+
+  initComponent: function() {
+    Ext.applyIf(this, {
+      $0
+    });
+    
+    ${1:MyNamespace.}${2:ClassName}.superclass.initComponent.apply(this, arguments);
+  }
+});${4:
 
 Ext.reg('${5:xtype}', ${1:MyNamespace.}${2:ClassName});}</string>
         <key>name</key>
