@@ -8,16 +8,20 @@
  * @extends ${3:Ext.ux.MVC.Controller}
  * ${4:Description of this controller}
  */
-${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}} = function() {
-  ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}}.superclass.constructor.call(this, {
-    viewsPackage: ${5:$1.views.${2/(.*)Controller$/\l$1/}}
-  });
-};
-Ext.extend(${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}}, ${3:Ext.ux.MVC.Controller});
+${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}} = Ext.extend(${3:Ext.ux.MVC.Controller}, {
+  constructor: function() {
+    //super
+    ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}}.superclass.constructor.call(this, {
+      viewsPackage: ${5:$1.views.${2/(.*)Controller$/\l$1/}}
+    });
+    
+    this.actsAsCrudController(${1:MyNamespace}.models.Affiliation);
+  }
+});
 
-Ext.ux.MVC.OS.getOS().registerController('${6:${2/(.*)Controller$/\l$1/}}', ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}});
+Ext.ux.MVC.OS.getOS().registerController('affiliations', ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}});
 
-Ext.ns("${5:$1.views.${2/(.*)Controller$/\l$1/}}");</string>
+Ext.ns('${1:MyNamespace}.views.affiliations');</string>
         <key>name</key>
         <string>MVC Controller</string>
         <key>scope</key>
