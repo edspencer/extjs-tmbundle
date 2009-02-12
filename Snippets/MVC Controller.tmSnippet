@@ -15,13 +15,13 @@ ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}} = Ext.extend(${3:
       viewsPackage: ${5:$1.views.${2/(.*)Controller$/\l$1/}}
     });
     
-    this.actsAsCrudController(${1:MyNamespace}.models.Affiliation);
+    this.actsAsCrudController(${1:MyNamespace}.models.${2/(.*)sController$/$1/});
   }
 });
 
-Ext.ux.MVC.OS.getOS().registerController('affiliations', ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}});
+Ext.ux.MVC.OS.getOS().registerController('${2/(.*)Controller$/\l$1/}', ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}});
 
-Ext.ns('${1:MyNamespace}.views.affiliations');</string>
+Ext.ns('${1:MyNamespace}.views.${2/(.*)Controller$/\l$1/}');</string>
         <key>name</key>
         <string>MVC Controller</string>
         <key>scope</key>
