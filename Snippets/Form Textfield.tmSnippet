@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>content</key>
-	<string>{
+    <dict>
+        <key>content</key>
+        <string>{
   xtype:      'textfield',
   fieldLabel: '${1:Label}',
-  name:       '${2:name}'
+  name:       '${2:${1/(.*)/\l$1/}}'
 }$0</string>
-	<key>name</key>
-	<string>Form Textfield</string>
-	<key>scope</key>
-	<string>source.js</string>
-	<key>tabTrigger</key>
-	<string>textfield</string>
-	<key>uuid</key>
-	<string>39B6F4E7-4F29-4543-A66B-92864FD25F4F</string>
-</dict>
+        <key>name</key>
+        <string>Form Textfield</string>
+        <key>scope</key>
+        <string>source.js</string>
+        <key>tabTrigger</key>
+        <string>textfield</string>
+        <key>uuid</key>
+        <string>39B6F4E7-4F29-4543-A66B-92864FD25F4F</string>
+    </dict>
 </plist>

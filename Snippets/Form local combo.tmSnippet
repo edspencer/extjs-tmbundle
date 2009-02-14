@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Form local combo</string>
+        <key>uuid</key>
+        <string>2BB560B5-8310-4724-B2E3-9ED9CE2902CD</string>
+        <key>tabTrigger</key>
+        <string>localcombo</string>
+        <key>content</key>
+        <string>{
+  xtype:          'combo',
+  mode:           'local',
+  triggerAction:  'all',
+  forceSelection: true,
+  editable:       false,
+  anchor:         "-20",
+  fieldLabel:     '${1:Label}',
+  name:           '${2:${1/(.*)/\l$1/}}',
+  hiddenName:     '${2:${1/(.*)/\l$1/}}',
+  displayField:   '${3:name}',
+  valueField:     '${4:value}',
+  store:          ${5:store}
+}</string>
+        <key>scope</key>
+        <string>source.js</string>
+    </dict>
+</plist>
