@@ -2,15 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-        <key>content</key>
-        <string>{name: 'id', type: '${1:int}'   }$0</string>
         <key>name</key>
-        <string>MVC Model field ID</string>
+        <string>MVC hasMany</string>
+        <key>uuid</key>
+        <string>CACD24AF-C581-423F-AB45-42BC2A768999</string>
+        <key>tabTrigger</key>
+        <string>hm</string>
+        <key>content</key>
+        <string>hasMany: $0</string>
         <key>scope</key>
         <string>source.js</string>
-        <key>tabTrigger</key>
-        <string>fieldi</string>
-        <key>uuid</key>
-        <string>A25BD56A-D927-47D7-96CD-D0CF557E2CCB</string>
     </dict>
 </plist>

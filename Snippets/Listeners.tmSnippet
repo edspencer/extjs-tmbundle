@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Listeners</string>
+        <key>uuid</key>
+        <string>3054788F-E138-4268-B00F-03C8A5420A7E</string>
+        <key>tabTrigger</key>
+        <string>list</string>
+        <key>content</key>
+        <string>listeners: {
+  ${1:load}: {
+    scope: this,
+    fn:    function(${2:args}) {
+      $0
+    }
+  }
+}</string>
+        <key>scope</key>
+        <string>source.js</string>
+    </dict>
+</plist>
