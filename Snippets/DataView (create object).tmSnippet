@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>DataView (create object)</string>
+        <key>uuid</key>
+        <string>9E6EFE09-474D-4D1E-BDC4-B2A1A8D585E8</string>
+        <key>tabTrigger</key>
+        <string>ndataview</string>
+        <key>content</key>
+        <string>${1:name} = new Ext.DataView({
+  xtype:        'dataview',
+  emptyText:    '${2:No items to display}',${3:
+  singleSelect: ${4:true},}${5:
+  autoHeight:   true,}${6:
+  autoScroll:   true,
+  overClass:    '${7:x-view-over}',}${8:
+  itemSelector: '${9:div.thumb-wrap}',}
+  store:        ${10:store}${11:,
+  tpl:          ${12:new ${13:Ext.XTemplate}(
+    '&lt;tpl for="."&gt;',
+      $0
+    '&lt;/tpl&gt;'
+  )}}
+});</string>
+        <key>scope</key>
+        <string>source.js</string>
+    </dict>
+</plist>
