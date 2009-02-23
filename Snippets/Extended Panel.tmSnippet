@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Extended Panel</string>
+        <key>uuid</key>
+        <string>15388B02-9B89-4940-A310-C53972DFC5A2</string>
+        <key>tabTrigger</key>
+        <string>epanel</string>
+        <key>content</key>
+        <string>/**
+ * @class ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @extends Ext.Panel
+ */
+${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}} = Ext.extend(Ext.Panel, {
+
+  initComponent: function() {
+    Ext.applyIf(this, {
+      $0
+    });
+    
+    ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}.superclass.initComponent.apply(this, arguments);
+  }
+});</string>
+        <key>scope</key>
+        <string>source.js</string>
+    </dict>
+</plist>
