@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>s.gif</string>
+        <key>uuid</key>
+        <string>2E315F56-1C8F-4BC9-B0D9-C0814256F2BF</string>
+        <key>tabTrigger</key>
+        <string>s.gif</string>
+        <key>content</key>
+        <string>Ext.BLANK_IMAGE_URL = '${1:http://extjs.cachefly.net/ext-2.2/resources/images/default/}s.gif';$0</string>
+        <key>scope</key>
+        <string>source.js</string>
+    </dict>
+</plist>
