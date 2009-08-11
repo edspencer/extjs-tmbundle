@@ -5,12 +5,11 @@
 	<key>content</key>
 	<string>/**
  * @class ${1:MyNamespace}.models.${2:${TM_FILENAME/(.+)\.js$/$1/}}
- * @extends Ext.ux.MVC.Model
+ * @extends ExtMVC.Model.Base
  */
-Ext.ux.MVC.Model.define("${1:MyNamespace}.models.${2:${TM_FILENAME/(.+)\.js$/$1/}}", {${3:
-  adapter:   '${4:activeResource}',}${5:
-  modelName: '${6:${2/(.*)/\l$1/}}',}
-  fields:    [
+ExtMVC.model.define("${2:${TM_FILENAME/(.+)\.js$/$1/}}", {${3:
+  adapter: '${4:REST}',}
+  fields: [
     $0
   ]
 });</string>

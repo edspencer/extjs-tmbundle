@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @property ${1:buttonName}
+ * @type Ext.Button
+ * ${2:Property description}
+ */
+this.${1:buttonName} = new Ext.Button({
+  text    : '${3:Button Text}',${4:
+  iconCls : '${5:icon class}',}${6:
+  disabled: true,}
+  scope   : this,
+  handler : $0
+});
+
+
+</string>
+	<key>name</key>
+	<string>Ext.Button</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>button</string>
+	<key>uuid</key>
+	<string>C8BA4B40-C7CA-4FED-9893-0174A39A2C63</string>
+</dict>
+</plist>

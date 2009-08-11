@@ -3,21 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @property ${1:propertyName}
- * @type ${2:Boolean}
- * ${3:Description}
- */
-${4:this.$1} = ${5:new ${2:Boolean}({
-  $0
-\})};</string>
+	<string>console.log(arguments);$0</string>
 	<key>name</key>
-	<string>JSDoc property</string>
+	<string>console.log arguments</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>prop</string>
+	<string>coa</string>
 	<key>uuid</key>
-	<string>1911C7F2-35BB-49F1-AB69-244669B97884</string>
+	<string>13F0B108-B992-4286-A59D-6A479507667C</string>
 </dict>
 </plist>

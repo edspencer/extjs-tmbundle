@@ -3,21 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @property ${1:propertyName}
- * @type ${2:Boolean}
- * ${3:Description}
- */
-${4:this.$1} = ${5:new ${2:Boolean}({
+	<string>if (${1:myObject} == undefined) ${2:{
   $0
-\})};</string>
+\}}</string>
 	<key>name</key>
-	<string>JSDoc property</string>
+	<string>if undefined</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>prop</string>
+	<string>ifu</string>
 	<key>uuid</key>
-	<string>1911C7F2-35BB-49F1-AB69-244669B97884</string>
+	<string>D0D07626-03F4-4FD1-83D4-A345582C8610</string>
 </dict>
 </plist>

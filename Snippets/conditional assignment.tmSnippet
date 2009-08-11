@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>var ${1:config} = ${1:config} || {$2};$0</string>
+	<string>${1:config} = ${1:config} || {$2};$0</string>
 	<key>name</key>
 	<string>Conditional Assignment</string>
 	<key>scope</key>

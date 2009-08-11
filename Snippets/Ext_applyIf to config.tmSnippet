@@ -3,21 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @property ${1:propertyName}
- * @type ${2:Boolean}
- * ${3:Description}
- */
-${4:this.$1} = ${5:new ${2:Boolean}({
-  $0
-\})};</string>
+	<string>config = config || {};
+      
+Ext.applyIf(config, {
+  
+});</string>
 	<key>name</key>
-	<string>JSDoc property</string>
+	<string>Ext.applyIf to config</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>prop</string>
+	<string>aifc</string>
 	<key>uuid</key>
-	<string>1911C7F2-35BB-49F1-AB69-244669B97884</string>
+	<string>39332EC0-CB13-4AEB-9726-AD3F4412378B</string>
 </dict>
 </plist>

@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @property ${1:propertyName}
- * @type ${2:Boolean}
- * ${3:Description}
- */
-${4:this.$1} = ${5:new ${2:Boolean}({
-  $0
-\})};</string>
+	<string>Ext.Msg.confirm(
+  '${1:title}',
+  '${2:description}',
+  function(btn) {
+    if (btn == 'yes') {
+      $0
+    }
+  },
+  ${3:this}
+);</string>
 	<key>name</key>
-	<string>JSDoc property</string>
+	<string>Ext.Msg.confirm</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>prop</string>
+	<string>confirm</string>
 	<key>uuid</key>
-	<string>1911C7F2-35BB-49F1-AB69-244669B97884</string>
+	<string>833F366B-8B33-40C4-AC30-0B131DF946CE</string>
 </dict>
 </plist>

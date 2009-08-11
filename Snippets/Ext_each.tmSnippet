@@ -4,8 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>Ext.each(${1:Array}, ${2:function(${4}) {
-  ${5}
-\}}${3:, this});${0}</string>
+  ${0}
+\}}${3:, this});</string>
 	<key>name</key>
 	<string>Ext.each</string>
 	<key>scope</key>
