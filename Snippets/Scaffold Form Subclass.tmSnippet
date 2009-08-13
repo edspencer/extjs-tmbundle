@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @class ${1:AppName}.views.${2:viewNamespace}.${3:New}
+ * @extends ExtMVC.view.scaffold.${3:New}
+ * The ${3:New} ${2:viewNamespace} form
+ */
+${1:AppName}.views.${2:viewNamespace}.${3:New} = Ext.extend(ExtMVC.view.scaffold.${3:New}, {
+${4:
+  initComponent: function() {
+    Ext.applyIf(this, {
+      $0
+    \});
+    
+    ${1:AppName}.views.${2:viewNamespace}.${3:New}.superclass.initComponent.apply(this, arguments);
+  \}
+}});</string>
+	<key>name</key>
+	<string>Scaffold Form Subclass</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>scaffoldform</string>
+	<key>uuid</key>
+	<string>CF91D941-EDA3-43B3-A509-59E177B3C6DE</string>
+</dict>
+</plist>

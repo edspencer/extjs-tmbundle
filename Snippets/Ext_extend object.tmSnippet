@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @class ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @extends ${3:Object}
+ * ${4:Description}
+ */
+${1:MyNamespace.}${2:ClassName} = Ext.extend(${3:Object}, {
+
+  constructor: function() {
+    Ext.applyIf(this, {
+      $0
+    });
+    
+    ${1:MyNamespace.}${2:ClassName}.superclass.constructor.apply(this, arguments);
+  }
+});</string>
+	<key>name</key>
+	<string>Ext.extend object</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>extendo</string>
+	<key>uuid</key>
+	<string>C4F482E6-C1D8-451D-896F-8BC8614DB0F5</string>
+</dict>
+</plist>

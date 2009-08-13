@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>config = config || {};
-      
-Ext.applyIf(config, {
-  $0
-});</string>
+	<string>* @author ${1:Ed Spencer (http://edspencer.net)}$0</string>
 	<key>name</key>
-	<string>Ext.applyIf to config</string>
+	<string>JSDoc author</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>aifc</string>
+	<string>* a</string>
 	<key>uuid</key>
-	<string>39332EC0-CB13-4AEB-9726-AD3F4412378B</string>
+	<string>1766ACCF-6D6A-4FFD-8464-AEDD3BBBC77F</string>
 </dict>
 </plist>

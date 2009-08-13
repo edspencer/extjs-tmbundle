@@ -14,10 +14,7 @@ this.${1:buttonName} = new Ext.Button({
   disabled: true,}
   scope   : this,
   handler : $0
-});
-
-
-</string>
+});</string>
 	<key>name</key>
 	<string>Ext.Button</string>
 	<key>scope</key>

@@ -1,34 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>content</key>
-        <string>/**
+<dict>
+	<key>content</key>
+	<string>/**
  * @class ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}}
- * @extends ${3:Ext.ux.MVC.Controller}
- * ${4:Description of this controller}
+ * @extends ${1:MyNamespace}.controllers.ApplicationController
  */
-${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}} = Ext.extend(${3:Ext.ux.MVC.Controller}, {
-  constructor: function() {
-    //super
-    ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}}.superclass.constructor.call(this, {
-      viewsPackage: ${5:$1.views.${2/(.*)Controller$/\l$1/}}
-    });
-    
-    this.actsAsCrudController(${1:MyNamespace}.models.${2/(.*)sController$/$1/});
-  }
+${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}} = Ext.extend(${1:MyNamespace}.controllers.ApplicationController, {
+  name: '${3:controllerName}',
+  model: ${1:MyNamespace}.models.${4:modelName}
 });
-
-Ext.ux.MVC.OS.getOS().registerController('${2/(.*)Controller$/\l$1/}', ${1:MyNamespace}.controllers.${2:${TM_FILENAME/(.+)\.js$/$1/}});
-
-Ext.ns('${1:MyNamespace}.views.${2/(.*)Controller$/\l$1/}');</string>
-        <key>name</key>
-        <string>MVC Controller</string>
-        <key>scope</key>
-        <string>source.js</string>
-        <key>tabTrigger</key>
-        <string>con</string>
-        <key>uuid</key>
-        <string>52A1CB23-FB62-4DA2-A860-9BCB5CDDC97A</string>
-    </dict>
+</string>
+	<key>name</key>
+	<string>MVC Controller</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>con</string>
+	<key>uuid</key>
+	<string>52A1CB23-FB62-4DA2-A860-9BCB5CDDC97A</string>
+</dict>
 </plist>
