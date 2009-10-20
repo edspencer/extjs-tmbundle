@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ExtMVC.registerView('${1:viewPackage}', '${2:${TM_FILENAME/(.+)\.js$/$1/}}', {
+  xtype: '${3:panel}'$0
+});</string>
+	<key>name</key>
+	<string>ExtMVC.registerView</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>regv</string>
+	<key>uuid</key>
+	<string>4C6CAA09-2473-42B5-95E6-8ED3D4061FE8</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ExtMVC.buildView("${1:Namespace}", "${2:ViewName}", {
+  $0
+});</string>
+	<key>name</key>
+	<string>ExtMVC.buildView</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>bv</string>
+	<key>uuid</key>
+	<string>A6621B17-1C54-432E-846A-C49D2D003990</string>
+</dict>
+</plist>

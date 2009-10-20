@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @property ${1:comboName}
+ * @type Ext.form.ComboBox
+ * ${2:Description}
+ */
+this.${1:comboName} = new Ext.form.ComboBox({
+  name          : '${3:name}',
+  mode          : 'local',
+  editable      : false,
+  forceSelection: true,
+  triggerAction : 'all',
+  displayField  : '${4:name}',
+  valueField    : '${5:value}',
+  value         : '${6:defaultValue}',
+  
+  store: new Ext.data.JsonStore({
+    fields : ['${4:name}', '${5:value}'],
+    data   : [{
+      ${4:name} : 'Day',
+      ${5:value}: '${6:defaultValue}'
+    }$0]
+  })
+});
+</string>
+	<key>name</key>
+	<string>Local ComboBox</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>localcombo</string>
+	<key>uuid</key>
+	<string>CBD03B9D-2166-4B85-83BB-3E7F5C7F9158</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ExtMVC.registerModel("${1:${TM_FILENAME/(.+)\.js$/$1/}}", {
+  ${3:primaryKey: "${2:id}",
+  
+  }fields: [
+    {name: "${2:id}", type: "int"}$0
+  ]
+});</string>
+	<key>name</key>
+	<string>ExtMVC.registerModel</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>regm</string>
+	<key>uuid</key>
+	<string>5F23135A-C152-45E4-A2F5-829BDE612FFE</string>
+</dict>
+</plist>

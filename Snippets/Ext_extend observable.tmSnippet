@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @class ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @extends Ext.util.Observable
+ * ${3:Description}
+ */
+${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}} = Ext.extend(Ext.util.Observable, {
+
+  constructor: function(config) {
+    ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}.superclass.constructor.apply(this, arguments);
+    
+    $0
+  }
+});</string>
+	<key>name</key>
+	<string>Ext.extend observable</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>extendob</string>
+	<key>uuid</key>
+	<string>58A7845A-CC4A-44F1-B33F-802B99DB440D</string>
+</dict>
+</plist>

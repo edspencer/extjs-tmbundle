@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ExtMVC.dispatch('${1:controller}', '${2:action}'${3:, [${4:args}]});</string>
+	<key>name</key>
+	<string>ExtMVC.dispatch</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>dis</string>
+	<key>uuid</key>
+	<string>B2155831-68D8-467E-B2A0-90979CA4F7C1</string>
+</dict>
+</plist>

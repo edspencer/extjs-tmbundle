@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ExtMVC.getModel("${1:ModelName}")$0</string>
+	<key>name</key>
+	<string>ExtMVC.getModel</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>getm</string>
+	<key>uuid</key>
+	<string>C2703449-F5EC-4F37-AB39-0008B548BE7A</string>
+</dict>
+</plist>

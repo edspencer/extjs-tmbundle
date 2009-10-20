@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ExtMVC.registerController("${1:controllerName}", {
+  model: ExtMVC.getModel("${2:ModelName}")$0
+});</string>
+	<key>name</key>
+	<string>ExtMVC.registerController</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>regc</string>
+	<key>uuid</key>
+	<string>F93B7A40-9495-4B2E-BDD7-8D853C04F1A3</string>
+</dict>
+</plist>
