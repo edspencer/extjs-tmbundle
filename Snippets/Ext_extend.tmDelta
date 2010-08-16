@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>/**
+ * @class ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @extends ${3:extendsClass}
+ * ${6:Description}
+ */
+${1:MyNamespace.}${2:ClassName} = Ext.extend(${3:extendsClass}, {
+
+    initComponent: function() {
+        Ext.applyIf(this, {
+            $0
+        });
+        
+        ${1:MyNamespace.}${2:ClassName}.superclass.initComponent.apply(this, arguments);
+    }
+});${4:
+
+Ext.reg('${5:xtype}', ${1:MyNamespace.}${2:ClassName});}</string>
+	</dict>
+	<key>deleted</key>
+	<array/>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>DBCF1424-6FC9-4FF4-BE6B-E1046A4D0C48</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @cfg {${1:String}} ${2:configName} ${3:Property description}
+ */
+${2:configName}: ${0}</string>
+	<key>name</key>
+	<string>Config in extend block</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>ec</string>
+	<key>uuid</key>
+	<string>D85CCE1C-4483-4537-910A-8744C8970727</string>
+</dict>
+</plist>
