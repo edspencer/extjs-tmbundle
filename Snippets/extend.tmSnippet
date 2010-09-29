@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>content</key>
-        <string>/**
+<dict>
+	<key>content</key>
+	<string>/**
  * @class ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}
  * @extends ${3:extendsClass}
  * ${6:Description}
  */
 ${1:MyNamespace.}${2:ClassName} = Ext.extend(${3:extendsClass}, {
 
-  initComponent: function() {
-    Ext.applyIf(this, {
-      $0
-    });
+    initComponent: function() {
+        Ext.applyIf(this, {
+            $0
+        });
     
-    ${1:MyNamespace.}${2:ClassName}.superclass.initComponent.apply(this, arguments);
-  }
+        ${1:MyNamespace.}${2:ClassName}.superclass.initComponent.apply(this, arguments);
+    }
 });${4:
 
 Ext.reg('${5:xtype}', ${1:MyNamespace.}${2:ClassName});}</string>
-        <key>name</key>
-        <string>Ext.extend</string>
-        <key>scope</key>
-        <string>source.js</string>
-        <key>tabTrigger</key>
-        <string>extend</string>
-        <key>uuid</key>
-        <string>DBCF1424-6FC9-4FF4-BE6B-E1046A4D0C48</string>
-    </dict>
+	<key>name</key>
+	<string>Ext.extend</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>extend</string>
+	<key>uuid</key>
+	<string>DBCF1424-6FC9-4FF4-BE6B-E1046A4D0C48</string>
+</dict>
 </plist>

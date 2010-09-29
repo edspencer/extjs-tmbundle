@@ -10,13 +10,13 @@
  */
 ${1:MyNamespace.}${2:ClassName} = Ext.extend(${3:Object}, {
 
-  constructor: function() {
-    Ext.applyIf(this, {
-      $0
-    });
+    constructor: function() {
+        Ext.applyIf(this, {
+            $0
+        });
     
-    ${1:MyNamespace.}${2:ClassName}.superclass.constructor.apply(this, arguments);
-  }
+        ${1:MyNamespace.}${2:ClassName}.superclass.constructor.apply(this, arguments);
+    }
 });</string>
 	<key>name</key>
 	<string>Ext.extend object</string>

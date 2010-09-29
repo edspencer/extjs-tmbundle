@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * ${3:Description}
+ * @author ${4:Author}
+ */
+(function() {
+    var suite  = Ext.test.session.getSuite('${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}'),
+        assert = Y.Assert;
+    
+    var defaultSetup = function() {        
+        $0
+    };
+    
+    suite.add(new Y.Test.Case({
+        name: '${5:caseName}',
+        setUp: defaultSetup
+        
+        
+    }));
+    
+    
+    
+})();</string>
+	<key>name</key>
+	<string>Test Suite</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>suite</string>
+	<key>uuid</key>
+	<string>91D53DB6-1C6F-406E-9850-683CDAF0A70C</string>
+</dict>
+</plist>

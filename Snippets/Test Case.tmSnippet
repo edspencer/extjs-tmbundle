@@ -3,22 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>constructor: function(config) {
-    config = config || {};
-
-    Ext.applyIf(config, {
-        $0
-    });
-
-    ${2:Ext.Panel}.superclass.constructor.call(this, config);
-}${1:,}</string>
+	<string>suite.add(new Y.Test.Case({
+    name: '${1:caseName}',${2:
+    setUp: ${3:defaultSetup}, }
+    
+    $0
+}));</string>
 	<key>name</key>
-	<string>constructor</string>
+	<string>Test Case</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>cons</string>
+	<string>case</string>
 	<key>uuid</key>
-	<string>5B01AC05-D195-4600-8068-366A3B83DFDF</string>
+	<string>7D7C9DE3-426C-43C8-9343-4E1E7239BFA4</string>
 </dict>
 </plist>

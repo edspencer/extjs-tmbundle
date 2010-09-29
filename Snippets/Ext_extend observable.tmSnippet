@@ -10,11 +10,11 @@
  */
 ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}} = Ext.extend(Ext.util.Observable, {
 
-  constructor: function(config) {
-    ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}.superclass.constructor.apply(this, arguments);
+    constructor: function(config) {
+        ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}.superclass.constructor.apply(this, arguments);
     
-    $0
-  }
+        $0
+    }
 });</string>
 	<key>name</key>
 	<string>Ext.extend observable</string>
